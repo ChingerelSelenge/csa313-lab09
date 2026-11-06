@@ -1,0 +1,56 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mmn.edu.must.sqat:lab09-jacoco[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding lab09-jacoco 1.0[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.12:prepare-agent[m [1m(default)[m @ [36mlab09-jacoco[0;1m ---[m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar
+Progress (1): 3.3/302 kBProgress (1): 6.0/302 kBProgress (1): 9.1/302 kBProgress (1): 12/302 kB Progress (1): 15/302 kBProgress (1): 17/302 kBProgress (1): 20/302 kBProgress (1): 23/302 kBProgress (1): 25/302 kBProgress (1): 28/302 kBProgress (1): 31/302 kBProgress (1): 34/302 kBProgress (1): 36/302 kBProgress (1): 39/302 kBProgress (1): 42/302 kBProgress (1): 45/302 kBProgress (1): 47/302 kBProgress (1): 50/302 kBProgress (1): 53/302 kBProgress (1): 57/302 kBProgress (1): 61/302 kBProgress (1): 65/302 kBProgress (1): 69/302 kBProgress (1): 73/302 kBProgress (1): 77/302 kBProgress (1): 81/302 kBProgress (1): 86/302 kBProgress (1): 90/302 kBProgress (1): 94/302 kBProgress (1): 98/302 kBProgress (1): 102/302 kBProgress (1): 106/302 kBProgress (1): 110/302 kBProgress (1): 114/302 kBProgress (1): 118/302 kBProgress (1): 122/302 kBProgress (1): 127/302 kBProgress (1): 131/302 kBProgress (1): 135/302 kBProgress (1): 139/302 kBProgress (1): 143/302 kBProgress (1): 147/302 kBProgress (1): 151/302 kBProgress (1): 155/302 kBProgress (1): 159/302 kBProgress (1): 163/302 kBProgress (1): 167/302 kBProgress (1): 172/302 kBProgress (1): 176/302 kBProgress (1): 180/302 kBProgress (1): 184/302 kBProgress (1): 188/302 kBProgress (1): 190/302 kBProgress (1): 194/302 kBProgress (1): 198/302 kBProgress (1): 202/302 kBProgress (1): 206/302 kBProgress (1): 211/302 kBProgress (1): 215/302 kBProgress (1): 219/302 kBProgress (1): 223/302 kBProgress (1): 227/302 kBProgress (1): 231/302 kBProgress (1): 235/302 kBProgress (1): 239/302 kBProgress (1): 243/302 kBProgress (1): 247/302 kBProgress (1): 252/302 kBProgress (1): 256/302 kBProgress (1): 260/302 kBProgress (1): 264/302 kBProgress (1): 268/302 kBProgress (1): 272/302 kBProgress (1): 276/302 kBProgress (1): 280/302 kBProgress (1): 284/302 kBProgress (1): 288/302 kBProgress (1): 292/302 kBProgress (1): 297/302 kBProgress (1): 301/302 kBProgress (1): 302 kB                        Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar[90m (302 kB at 315 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/jacoco/org.jacoco.core/0.8.12/org.jacoco.core-0.8.12.jar
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/jacoco/org.jacoco.report/0.8.12/org.jacoco.report-0.8.12.jar
+Progress (1): 4.1/210 kBProgress (1): 7.4/210 kBProgress (1): 11/210 kB Progress (1): 16/210 kBProgress (1): 20/210 kBProgress (1): 24/210 kBProgress (1): 28/210 kBProgress (1): 32/210 kBProgress (1): 36/210 kBProgress (1): 40/210 kBProgress (1): 44/210 kBProgress (1): 48/210 kBProgress (1): 52/210 kBProgress (1): 57/210 kBProgress (1): 61/210 kBProgress (1): 65/210 kBProgress (1): 69/210 kBProgress (1): 73/210 kBProgress (1): 77/210 kBProgress (1): 81/210 kBProgress (1): 85/210 kBProgress (1): 89/210 kBProgress (1): 93/210 kBProgress (1): 97/210 kBProgress (1): 102/210 kBProgress (1): 106/210 kBProgress (1): 110/210 kBProgress (1): 114/210 kBProgress (1): 118/210 kBProgress (1): 122/210 kBProgress (1): 126/210 kBProgress (1): 130/210 kBProgress (1): 134/210 kBProgress (1): 138/210 kBProgress (1): 143/210 kBProgress (1): 147/210 kBProgress (1): 151/210 kBProgress (1): 155/210 kBProgress (1): 159/210 kBProgress (1): 163/210 kBProgress (1): 167/210 kBProgress (1): 171/210 kBProgress (1): 175/210 kBProgress (1): 179/210 kBProgress (1): 184/210 kBProgress (1): 188/210 kBProgress (1): 192/210 kBProgress (1): 196/210 kBProgress (1): 200/210 kBProgress (1): 204/210 kBProgress (1): 208/210 kBProgress (1): 210 kB    Progress (2): 210 kB | 3.3/131 kBProgress (2): 210 kB | 6.0/131 kBProgress (2): 210 kB | 8.8/131 kBProgress (2): 210 kB | 12/131 kB Progress (2): 210 kB | 14/131 kBProgress (2): 210 kB | 17/131 kBProgress (2): 210 kB | 20/131 kBProgress (2): 210 kB | 22/131 kBProgress (2): 210 kB | 25/131 kBProgress (2): 210 kB | 28/131 kBProgress (2): 210 kB | 31/131 kBProgress (2): 210 kB | 34/131 kBProgress (2): 210 kB | 36/131 kBProgress (2): 210 kB | 39/131 kBProgress (2): 210 kB | 42/131 kBProgress (2): 210 kB | 45/131 kBProgress (2): 210 kB | 47/131 kBProgress (2): 210 kB | 50/131 kBProgress (2): 210 kB | 53/131 kBProgress (2): 210 kB | 57/131 kB                                Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/jacoco/org.jacoco.core/0.8.12/org.jacoco.core-0.8.12.jar[90m (210 kB at 773 kB/s)[0m
+Progress (1): 61/131 kBProgress (1): 65/131 kBProgress (1): 69/131 kBProgress (1): 73/131 kBProgress (1): 77/131 kBProgress (1): 81/131 kBProgress (1): 86/131 kBProgress (1): 90/131 kBProgress (1): 94/131 kBProgress (1): 98/131 kBProgress (1): 102/131 kBProgress (1): 106/131 kBProgress (1): 110/131 kBProgress (1): 114/131 kBProgress (1): 118/131 kBProgress (1): 122/131 kBProgress (1): 125/131 kBProgress (1): 129/131 kBProgress (1): 131 kB                        Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/jacoco/org.jacoco.report/0.8.12/org.jacoco.report-0.8.12.jar[90m (131 kB at 274 kB/s)[0m
+[[1;34mINFO[m] argLine set to -javaagent:/home/chingerel/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar=destfile=/home/chingerel/Documents/Projects/csa313/labs/csa313-lab09/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mlab09-jacoco[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/chingerel/Documents/Projects/csa313/labs/csa313-lab09/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mlab09-jacoco[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1madded or removed source files[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug release 17] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:testResources[m [1m(default-testResources)[m @ [36mlab09-jacoco[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/chingerel/Documents/Projects/csa313/labs/csa313-lab09/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mlab09-jacoco[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug release 17] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:3.2.5:test[m [1m(default-test)[m @ [36mlab09-jacoco[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s -- in mn.edu.must.sqat.[1mScholarshipCalculatorTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 5, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:3.1.2:jar[m [1m(default-jar)[m @ [36mlab09-jacoco[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/chingerel/Documents/Projects/csa313/labs/csa313-lab09/target/lab09-jacoco-1.0.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.12:report[m [1m(report)[m @ [36mlab09-jacoco[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /home/chingerel/Documents/Projects/csa313/labs/csa313-lab09/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'lab09-jacoco' with 1 classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.967 s
+[[1;34mINFO[m] Finished at: 2026-11-06T19:02:53+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
