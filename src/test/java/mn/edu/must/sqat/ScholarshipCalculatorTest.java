@@ -183,4 +183,60 @@ class ScholarshipCalculatorTest {
 
         assertEquals(2.5, calculator.gpa(scores));
     }
+
+    // D1: Доод хязгаар
+    @Test
+    void letterGrade_Zero() {
+        assertEquals("F", calculator.letterGrade(0));
+    }
+
+    // D2: Доод хязгаараас доогуур
+    @Test
+    void letterGrade_BelowZero() {
+        assertThrows(IllegalArgumentException.class,
+                () -> calculator.letterGrade(-0.01));
+    }
+
+    // D3: D үнэлгээний доод хязгаар
+    @Test
+    void letterGrade_Sixty() {
+        assertEquals("D", calculator.letterGrade(60));
+    }
+
+    // D4: D үнэлгээний дээд хязгаар
+    @Test
+    void letterGrade_SixtyNinePoint99() {
+        assertEquals("D", calculator.letterGrade(69.99));
+    }
+
+    // D5: D үнэлгээний доод хязгаараас доогуур
+    @Test
+    void letterGrade_FiftyNinePoint99() {
+        assertEquals("F", calculator.letterGrade(59.99));
+    }
+
+    // D6: B үнэлгээний дээд хязгаар
+    @Test
+    void letterGrade_EightyNinePoint99() {
+        assertEquals("B", calculator.letterGrade(89.99));
+    }
+
+    // D7: A үнэлгээний доод хязгаар
+    @Test
+    void letterGrade_Ninety() {
+        assertEquals("A", calculator.letterGrade(90));
+    }
+
+    // D8: Онооны дээд хязгаар
+    @Test
+    void letterGrade_OneHundred() {
+        assertEquals("A", calculator.letterGrade(100));
+    }
+
+    // D9: Дээд хязгаараас их
+    @Test
+    void letterGrade_AboveOneHundred() {
+        assertThrows(IllegalArgumentException.class,
+                () -> calculator.letterGrade(100.01));
+    }
 }
