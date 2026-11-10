@@ -153,4 +153,34 @@ class ScholarshipCalculatorTest {
 
         assertEquals(2.0, calculator.gpa(scores));
     }
+
+    // C1: 0 элементтэй массив
+    @Test
+    void gpa_ZeroIterations() {
+        assertThrows(IllegalArgumentException.class,
+                () -> calculator.gpa(new double[] {}));
+    }
+
+    // C2: null массив
+    @Test
+    void gpa_NullArray() {
+        assertThrows(IllegalArgumentException.class,
+                () -> calculator.gpa(null));
+    }
+
+    // C3: 1 элементтэй массив
+    @Test
+    void gpa_OneIteration() {
+        double[] scores = { 95 };
+
+        assertEquals(4.0, calculator.gpa(scores));
+    }
+
+    // C4: 2-оос олон элементтэй массив
+    @Test
+    void gpa_MultipleIterations() {
+        double[] scores = { 95, 85, 75, 65 };
+
+        assertEquals(2.5, calculator.gpa(scores));
+    }
 }
